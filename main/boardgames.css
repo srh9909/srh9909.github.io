@@ -1,0 +1,151 @@
+@import url();
+
+:root{
+    background-color:#4453bd;
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.icons{
+    display: flex;
+    justify-content:space-between;
+    margin: 0 6%;
+}
+.main-menu{
+    text-align: center;
+    height: 5rem;
+    word-spacing: 4.5em;
+    text-transform: uppercase;
+    padding-top: 2em;
+}
+#deals{
+    color: darkblue;
+    background-color: white;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: medium;
+    height: 5em;
+    padding-left: 100px;
+}
+.banner{
+    font-size: small;
+    font-weight: 300;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-align: center;
+    background-color: #FFBB46;
+}
+.nav{
+    color: white;
+    text-decoration: none;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.breadcrumbs{
+    color: aliceblue;
+    text-decoration: none;
+    word-spacing: 0.5em;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: small;
+}
+
+.pagination{
+    padding-left: 30em;
+    font-size: large;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.pagetxt{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: x-large;
+}
+
+hr{
+    background-color: #6A6A6A;
+    height: 10px;
+}
+
+.topic-titles{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 900;
+    font-size: xx-large;
+    text-align: center;
+    color:white;
+    padding:5px 0px 5px 0px;
+}
+
+.sidebar-text{
+    color: black;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-align: left;
+    margin-left: 0.5em;
+    font-size: x-large;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px; /* Set the width of the sidebar */
+    position: relative;
+    background-color: #FFBB46;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+    text-decoration: overline;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+
+.products-container{
+    display: grid;
+    display: block;
+}
+
+.products{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+.price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
