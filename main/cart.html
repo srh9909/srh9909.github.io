@@ -48,34 +48,50 @@
     
     <h2 class="topic-titles">CHECKOUT</h2>
 
+    <hr>
+
+    <!-- Checkout steps titles -->
     <div>
-        <ol>SHOPPING CART</ol>
-        <ol>DETAILS</ol>
-        <ol>PAYMENT</ol>
+      <text class="checkout-nums">1</text>
+      <text class="checkout-nums">2</text>
+      <text class="checkout-nums">3</text>
+    </div>
+    <hr>
+    <div>
+      <text class="checkout-names">CART</text>
+      <text class="checkout-names">DETAILS</text>
+      <text class="checkout-names">PAYMENT</text>
     </div>
 
+<hr>
+
     <!-- Shopping Cart contents -->
-    <div class="col-25">
-        <div class="container">
-          <h4>Cart
-            <span class="price" style="color:black">
-              <i class="fa fa-shopping-cart"></i>
-              <b>4</b>
-            </span>
-          </h4>
-          <p><a href="#">Product 1</a> <span class="price">$15</span></p>
-          <p><a href="#">Product 2</a> <span class="price">$5</span></p>
-          <p><a href="#">Product 3</a> <span class="price">$8</span></p>
-          <p><a href="#">Product 4</a> <span class="price">$2</span></p>
-          <hr>
-          <p>Total <span class="price" style="color:black"><b>$30</b></span></p>
-        </div>
-      </div>
+  <div class="cart-summary">
+    <table>
+      <tr>
+        <td><img height="200px" src="Mono-wagga.svg" alt="Monopoly Wagga bg"></td>
+        <td>$39.95</td>
+        <td><button> X </button></td>
+      </tr>
+      <tr>
+        <td><img height="200px" src="guesswho.svg" alt="Guess Who bg"></td>
+        <td>$27.95</td>
+        <td><button> X </button></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class>
+    <text class="sum">QTY: 2</text>
+    <text class="sum">SUBTOTAL: $67.95</text>
+  </div>
 
     <!-- Proceed button -->
-    <p><a href="details.html"><button>PROCEED TO DETAILS</button></p></a>
+    <p><a href="details.html"><button class="continue">PROCEED TO DETAILS</button></p></a>
 
     <!-- Back button -->
-    <p><a href="home.html"><button>HOME</button></p></a>
+    <p><a href="home.html"><button class="back">HOME</button></p></a>
+
+    <hr>
 </body>
 </html>

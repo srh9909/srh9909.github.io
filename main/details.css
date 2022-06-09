@@ -1,0 +1,118 @@
+@import url();
+
+:root{
+
+}
+
+body{
+    margin-right:border: 70px;
+    margin-left:border: 70px;
+    background-color: #4453bd;
+}
+
+p{
+    text-align: center;
+}
+
+#deals{
+    color: darkblue;
+    background-color: white;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: medium;
+    height: 5em;
+    padding-left: 100px;
+}
+
+.paylogos {
+    display: flexbox;
+    height: 4em;
+    padding: 0.7em;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.icons{
+    display: flex;
+    justify-content:space-between;
+    margin: 0 6%;
+}
+
+.main-menu{
+    text-align: center;
+    height: 5rem;
+    word-spacing: 4.5em;
+    text-transform: uppercase;
+    padding-top: 2em;
+}
+
+.nav{
+    color: white;
+    text-decoration: none;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.topic-titles{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color:#FFBB46;
+    padding: 40px 0px 5px 0px;
+}
+
+.banner{
+    font-size: small;
+    font-weight: 300;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-align: center;
+    background-color: #FFBB46;
+}
+
+.brands{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-radius: 2px;
+}
+
+.stages{
+    background-color: blueviolet;
+}
+
+.checkout-nums{
+    border-radius: 50%;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    margin: 0 200px;
+    margin-right: 230px;
+}
+
+hr{
+    color: #4453bd;
+    border: none;
+    height: 1em;
+}
+
+.checkout-names{
+    background-color: #FFBB46;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bold;
+    border-radius: 15%;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    font-size: large;
+    color: black;
+    align-content:center;
+    margin: 0 180px;
+}
+
+.cart-summary{
+    background-color: white;
+}

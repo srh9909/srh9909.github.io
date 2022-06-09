@@ -14,12 +14,13 @@ p{
     text-align: center;
 }
 
-.deals{
-    display:flexbox;
-    justify-content: center;
+#deals{
     color: darkblue;
     background-color: white;
     font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: medium;
+    height: 5em;
+    padding-left: 100px;
 }
 
 .paylogos {
@@ -78,6 +79,11 @@ p{
     border-radius: 2px;
 }
 
+.brandlogos{
+    border-radius: 0%;
+    background-color: aliceblue;
+}
+
 td{
     text-align: center; 
     vertical-align: middle;
@@ -103,7 +109,7 @@ button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 12px;
+    font-size: 15px;
     border-radius: 12px;
   }
 
