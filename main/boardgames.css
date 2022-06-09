@@ -117,15 +117,15 @@ hr{
   }
 
 .products-container{
-    display: grid;
-    display: block;
+    display: inline-block;
+    width: 30%;
 }
 
 .products{
     font-family: 'Plus Jakarta Sans', sans-serif;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
-    margin: auto;
+    margin: 10px;
     text-align: center;
     font-family: arial;
 }
