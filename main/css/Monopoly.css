@@ -5,16 +5,14 @@
 }
 
 body{
-    margin-right:border: 70px;
-    margin-left:border: 70px;
     background-color: #4453bd;
 }
 
 p{
-    text-align: center;
+    text-align: left;
     font-family: 'Plus Jakarta Sans', sans-serif;
-    text-align: center;
     color: white;
+    margin-left: 40em;
 }
 
 #deals{
@@ -86,92 +84,26 @@ p{
 
 .price {
     font-family: 'Plus Jakarta Sans', sans-serif;
+    color:white;
+    margin-left: 27em;
 }
 
 button {
     border-radius: 10%;
-    background-color: #8896ff;
+    background-color: black;
+    color: white;
     border: none;
     font-family: 'Plus Jakarta Sans', sans-serif;
+    padding: 1em 1em 1em 1em;
+    margin-left: 3em;
 }
 
-.pagetxt{
+.prod-page{
+    float:left;
     font-family: 'Plus Jakarta Sans', sans-serif;
-    text-decoration: none;
-    color: white;
 }
 
-.pages {
-    margin-left: 500px;
-}
-
-.pages a {
-    color: white;
-    float: left;
-    padding: 8px 16px;
-    text-decoration: none;
-    transition: background-color .3s;
-  }
-  
-.pages a.active {
-    background-color: #343434;
-    color: white;
-  }
-  
-.pages a:hover:not(.active) {background-color: #6A6A6A;}
-
-.gap{
-    height: 30px;
-    background-color: #4453bd;
-}
-
- hr{
-      background-color: #6A6A6A;
-      height: 0.5px;
-      border: none;
-      padding: 5px 500px 5px 25px;
-  }
-
-.sidebar-title {
+h1{
+    font-family: 'Plus Jakarta Sans', sans-serif;
     color:white;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    margin-left: 2em;
-}
-
-.sidebar-txt {
-    color: black;
-    font-weight: 400;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    align-content: left;
-    text-decoration: none;
-}
-
-.sidenav {
-    height: 100%;
-    width: 200px;
-    position: absolute;
-    z-index: 1;
-    top: 1;
-    left: 0;
-    background-color: #FFBB46;
-    overflow-x: hidden;
-    padding-top: 20px;
-  }
-
-.products {
-    padding-bottom: 1em;
-}
-
-.products-container {
-    margin-left: 200px;
-    float: right;
-    padding-bottom: 1em;
-}
-
-footer{
-    background-color: #20201F;
-    color:aliceblue;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    text-align: center;
-    padding-top: 40px;
 }

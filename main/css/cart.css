@@ -153,4 +153,12 @@ button{
     background-color: #FFBB46;
     height: 30px;
     font-family: 'Plus Jakarta Sans', sans-serif;
+    color: sum;
+}
+
+.total{
+    background-color: #FFBB46;
+    padding: 1em 0 1em 0;
+    color:white;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
